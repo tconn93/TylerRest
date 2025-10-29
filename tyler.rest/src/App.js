@@ -2,18 +2,18 @@ import './App.css';
 
 function App() {
   const services = [
-    {
-      title: "Facebook Webhook Proxy",
-      description: "Secure, scalable webhook proxy service for Facebook integrations. Handle webhook events with reliability and ease.",
-      link: "#webhook-proxy",
-      tags: ["API", "Integration", "Real-time"]
-    },
-    {
-      title: "eCommerce Solutions",
-      description: "Ready-to-deploy eCommerce websites built with modern tech. Fast, responsive, and optimized for conversions.",
-      link: "#ecommerce",
-      tags: ["Web Development", "Full-Stack", "Cloud"]
-    }
+{
+  title: "Facebook Webhook Proxy",
+  description: "Secure webhook proxy for Facebook Messenger integrations. Live demo: https://fb.tyler.rest",
+  link: "https://fb.tyler.rest",
+  tags: ["API", "Integration", "Real-time"]
+},
+{
+  title: "eCommerce Solutions",
+  description: "Custom eCommerce platforms with seamless payment integration. Live demo: https://moonwake.tyler.ag",
+  link: "https://moonwake.tyler.ag",
+  tags: ["Web Development", "Full-Stack", "Cloud"]
+}
   ];
 
   return (
